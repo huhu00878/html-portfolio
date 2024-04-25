@@ -150,7 +150,7 @@ hr {
   float: right;
 }
 
-.CERTIFICATION-year{
+.certification-year{
   float: right;
 }
 
@@ -189,7 +189,11 @@ h2{
 .list-setting{
   font-size: 1.3vh;
   position: relative;
-  margin:  2.5vh;
+  margin: 2.5vh;
+}
+
+.list-setting-certification{
+  list-style: none;
 }
 
 p{
@@ -258,7 +262,7 @@ table{
     color:gray;
   }
 
-  .CERTIFICATION-year{
+  .certification-year{
     position: absolute;
     bottom:-2vh;
     color:gray;
