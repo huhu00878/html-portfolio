@@ -4,166 +4,320 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hubert's Resume</title>
+    <link rel="stylesheet" href="./css/style_home_page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <font face="Calibri">
-    <h1><font size="7">Hubert Wu</font></h1>
-    <a href="./public/contact.html"><img src="images/giphy.gif" height="35" alt="Contact Me"/></a>
-    <hr />
+<body class="tektur">
 
-    <h2><font size="5">SUMMARY OF QUALIFICATIONS</font></h2>
-        <ul>
-            <font size=4">
+    <section id="title">
+        <div class="container-title">
+            <h1>Hubert Wu</h1>
+        </div>
+    </section>
+
+    <section id="Profile">
+        <div class="container-Profile">
+            <div class="Photo-Profile">
+                <img class="Photo-Profile" src="./images/Photo-Profile.jpeg" alt="Hubert's photo">
+            </div>
+
+            <div class="button-Profile">
+                <div class="position-right">
+                    <a class="button-contactme" href="./public/contact.html">Contact Me</a>
+                </div>
+                <div class="position-left">
+                    <a class="button-aboutme" href="./public/aboutme.html">About Me</a>
+                </div>
+                
+            </div>
+            <div>
+                <img class="robot" src="./images/robot.png" alt="robot">
+            </div>
+        </div>
+    </section>
+
+    <section id="contant">
+        <div class="container-contant">
+            <div class="sub-title">
+                <img class="icon-robot"src="./images/robot.svg" alt="robot-icon">
+                <h2>SUMMARY OF QUALIFICATIONS</h2>
+            </div>
+
+            <ul class="list-setting">
                 <li>Work well under pressure</li>
                 <li>Organized and attentive to detail</li>
                 <li>Positive thinking and willing to learn new things</li>
                 <li>Punctuality</li>
                 <li>Honest to myself, employer, and coworkers</li>
-            </font>
+            </ul>
+  
+            <hr class="hr-homepage" />
 
-        </ul>
-    <hr />
+            <div class="sub-title">
+                <img class="icon-robot"src="./images/robot.svg" alt="robot-icon">
+                <h2>EDUCATION</h2>
+            </div>
 
-    <h2><font size="5">EDUCATION</font></h2>
-        <ul>
-            <li>
-                <p>
-                    <div>
-                        <div style="float: left"><font size=4"><strong><em>Culinary Arts Program, Professional Cook Level 1, 2</em></strong></font></div>
-                        <div style="float: right"><em>2019 – 2021</em></div><br />
-                    </div>
-                    <br />
-                    Vancouver Community College, Vancouver, BC<br />
-                    GPA: 4.15/4.33
-                </p>
-            </li>
-            <li>
-                <p>
-                    <div>
-                        <div style="float: left"><font size=4"><strong><em>Master of Science in Electrical Engineering</em></strong></font></div>
-                        <div style="float: right"><em>2013 – 2016</em></div><br />
-                    </div>
-                    <br />
-                    National Taiwan University, Taipei, Taiwan<br />
-                    GPA: 3.99/4.3
-                </p>    
-            </li>
-            <li>
-                <p>
-                    <div>
-                        <div style="float: left"><font size=4"><strong><em>Bachelor of Science in Engineering</em></strong></font></div>
-                        <div style="float: right"><em>2009 – 2013</em></div><br />
-                    </div>
-                    <br />
-                    Tunghai University, Taichung, Taiwan<br />
-                    GPA: 3.99/4.3
-                </p>
-            </li>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            Culinary Arts Program, Professional Cook Level 1, 2
+                        </div>
+                        <div class="contant-right">  
+                            2019 – 2021
+                        </div> 
+                    </p>
+                                          
+                        <br />
+                        Vancouver Community College, Vancouver, BC
+                        <br />
+                        GPA: 4.15/4.33
+                    
+                </li>
+            </ul>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            Master of Science in Electrical Engineering
+                        </div>
+                        <div class="contant-right">
+                            2013 – 2016
+                        </div>
+                    </p>
+                    
+                        <br />
+                        National Taiwan University, Taipei, Taiwan
+                        <br />
+                        GPA: 3.99/4.3
+                        
+                </li>
+            </ul>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            Bachelor of Science in Engineering
+                        </div>
+                        <div class="contant-right">
+                            2009 – 2013
+                        </div>
+                    </p>
+                    
+                        <br />
+                        Tunghai University, Taichung, Taiwan
+                        <br />
+                        GPA: 3.91/4.3
+                    
+                </li>
+            </ul>
+            <hr class="hr-homepage" />
 
-        </ul>
-    <hr />
+            <div class="sub-title">
+                <img class="icon-robot"src="./images/robot.svg" alt="robot-icon">
+                <h2>EXPERIENCE</h2>
+            </div>
 
-    <h2><font size="5">EXPERIENCE</font></h2>
-        <p>
-            <div>
-                <div style="float: left"><font size=4"><strong><em>Dinner Cook</em></strong></font></div>
-                <div style="float: right"><em>May, 2022 – Present</em></div><br />
-            </div>
-            <br />
-            WestCana Services Inc.<br />
-            Vancouver, BC, Canada
-            <ul>
-                <li>Prep and cook dinner alone for 80 people 4 days a week</li>
-                <li>Cowork with a Head Chef to accomplish a catering event for 200 people </li>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            Dinner Cook
+                        </div>
+                        <div class="contant-right">  
+                            May, 2022 – Present
+                        </div> 
+                    </p>
+                        <br/>
+                        WestCana Services Inc.
+                        <br />
+                        Vancouver, BC, Canada
+                        <ul>
+                            <li>
+                                Prep and cook dinner alone for 80 people 4 days a week
+                            </li>
+                            <li>
+                                Cowork with a Head Chef to accomplish a catering event for 200 people
+                            </li>
+                        </ul>
+                </li>
             </ul>
-        </p>
-        <p>
-            <div>
-                <div style="float: left"><font size=4"><strong><em>2<sup>nd</sup> Cook</em></strong></font></div>
-                <div style="float: right"><em>Jul., 2021 – May, 2022</em></div><br />
-            </div>
-            <br />
-            Wedgewood Hotel (Bacchus)<br />
-            Vancouver, BC, Canada
-            <ul>
-                <li>Prep and line work of lounge station</li>
-                <li>Line work of GM, dessert station, in room dinning and oyster station </li>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            2nd Cook
+                        </div>
+                        <div class="contant-right">  
+                            Jul., 2021 – May, 2022
+                        </div> 
+                    </p>
+                        <br/>
+                        Wedgewood Hotel (Bacchus)
+                        <br />
+                        Vancouver, BC, Canada
+                        <ul>
+                            <li>
+                                Prep and line work of lounge station
+                            </li>
+                            <li>
+                                Line work of GM, dessert station, in room dinning and oyster station
+                            </li>
+                        </ul>
+                </li>
             </ul>
-        </p>
-        <p>
-            <div>
-                <div style="float: left"><font size=4"><strong><em>Assistant Cook</em></strong></font></div>
-                <div style="float: right"><em>Sep., 2020 – Jan., 2021</em></div><br />
-            </div>
-            <br />
-            Weirdo Café Ltd.<br />
-            Vancouver, BC, Canada
-            <ul>
-                <li>Prep daily ingredients to meet tight timelines</li>
-                <li>Assistant cook with cooking skill: Grill, Deep fry, Roast, Torch </li>
-                <li>Receiving and storage goods</li>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            Assistant Cook
+                        </div>
+                        <div class="contant-right">  
+                            Sep., 2020 – Jan., 2021
+                        </div> 
+                    </p>
+                        <br/>
+                        Weirdo Café Ltd.
+                        <br />
+                        Vancouver, BC, Canada
+                        <ul>
+                            <li>
+                                Prep daily ingredients to meet tight timelines
+                            </li>
+                            <li>
+                                Assistant cook with cooking skill: Grill, Deep fry, Roast, Torch
+                            </li>
+                            <li>
+                                Receiving and storage goods
+                            </li>
+                        </ul>
+                </li>
             </ul>
-        </p>
-        <p>
-            <div>
-                <div style="float: left"><font size=4"><strong><em>Volunteer Kitchen Helper</em></strong></font></div>
-                <div style="float: right"><em>Nov., 2019 – Mar., 2020</em></div><br />
-            </div>
-            <br />
-            Culinary Arts Program, Vancouver Community College<br />
-            Vancouver, BC, Canada
-            <ul>
-                <li>Assisted chef in preparing dishes</li>
-                <li>Provided assistance at various stations</li>
-                <li>Kitchen cleaning</li>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            Volunteer Kitchen Helper
+                        </div>
+                        <div class="contant-right">  
+                            Nov., 2019 – Mar., 2020
+                        </div> 
+                    </p>
+                        <br/>
+                        Culinary Arts Program, Vancouver Community College
+                        <br />
+                        Vancouver, BC, Canada
+                        <ul>
+                            <li>
+                                Assisted chef in preparing dishes
+                            </li>
+                            <li>
+                                Provided assistance at various stations
+                            </li>
+                            <li>
+                                Kitchen cleaning
+                            </li>
+                        </ul>
+                </li>
             </ul>
-        </p>
-        <p>
-            <div>
-                <div style="float: left"><font size=4"><strong><em>Tutor</em></strong></font></div>
-                <div style="float: right"><em>2016– 2017</em></div><br />
-            </div>
-            <br />
-            Self-employed<br />
-            Taichung, Taiwan
-            <ul>
-                <li>Main subjects: Math, Science, and Electronics</li>
-                <li>Developed listening skills and improved communication skills</li>
-                <li>Time management</li>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            Tutor
+                        </div>
+                        <div class="contant-right">  
+                            2016– 2017
+                        </div> 
+                    </p>
+                        <br/>
+                        Self-employed
+                        <br />
+                        Taichung, Taiwan
+                        <ul>
+                            <li>
+                                Main subjects: Math, Science, and Electronics
+                            </li>
+                            <li>
+                                Developed listening skills and improved communication skills
+                            </li>
+                            <li>
+                                Time management
+                            </li>
+                        </ul>
+                </li>
             </ul>
-        </p>
-        <p>
-            <div>
-                <div style="float: left"><font size=4"><strong><em>Teaching Assistant</em></strong></font></div>
-                <div style="float: right"><em>2011– 2012</em></div><br />
-            </div>
-            <br />
-            Dept. of Electrical Engineering, Tunghai University<br />
-            Taichung, Taiwan
-            <ul>
-                <li>Communicated effectively with professors(Manager)</li>
-                <li>Organized classes and edited handouts for teaching Electronics</li>
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            Teaching Assistant
+                        </div>
+                        <div class="contant-right">  
+                            2011– 2012
+                        </div> 
+                    </p>
+                        <br/>
+                        Dept. of Electrical Engineering, Tunghai University
+                        <br />
+                        Taichung, Taiwan
+                        <ul>
+                            <li>
+                                Communicated effectively with professors(Manager)
+                            </li>
+                            <li>
+                                Organized classes and edited handouts for teaching Electronics
+                            </li>
+                        </ul>
+                </li>
             </ul>
-        </p> 
-    <hr /> 
+            <hr class="hr-homepage" />
 
-    <h2><font size="5">CERTIFICATION</font></h2>
-        <div>
-            <div style="float: left"><font size=4"><strong><em>FOODSAFE Level 1</em></strong></font></div>
-            <div style="float: right"><em>Sep., 2019 – Sep., 2024</em></div><br />
+            <div class="sub-title">
+                <img class="icon-robot"src="./images/robot.svg" alt="robot-icon">
+                <h2>CERTIFICATION</h2>
+            </div>
+
+            <ul class="list-setting">
+                <li>
+                    <p>
+                        <div class="contant-left">
+                            FOODSAFE Level 1
+                        </div>
+                        <div id="footer-year" class="contant-right">  
+                            Sep., 2019 – Sep., 2024
+                        </div> 
+                    </p>
+                </li>
+            </ul>
+
         </div>
-    <hr />
-
-    <h2><font size="5">More?</font></h2>
-        <a href="./public/aboutme.html"><em>Would you like to know more about Huhu?</em></a>
-    <hr />
-
-    <p align="center"><a href="./public/contact.html"><img src="images/giphy.gif" height="35" alt="Contact Me"/></a></p> 
+    </section>
     
-    <footer>
-        <p align="center">© 2024 HuHuWu</p>
-    </footer>
+    <section id="footer-base">
+        <div class="container-footer-base">
+            <div class="button-Profile">
+                <div class="position-right">
+                    <a class="button-contactme" href="./public/contact.html">Contact Me</a>
+                </div>
+                <div class="position-left">
+                    <a class="button-aboutme" href="./public/aboutme.html">About Me</a>
+                </div>
+                
+            </div>
 
-    </font>
+            <footer>
+                <p>© 2024 HuertWu</p>
+                <div>
+                    <img class="robot-footer" src="./images/robot-2.png" alt="robot">
+                </div>
+            </footer>
+
+        </div>
+    </section>
+
 </body>
 </html>
