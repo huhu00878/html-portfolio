@@ -51,29 +51,25 @@ hr {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  height: 10vh;
+  height: 15vh;
   padding: 1vh;
 }
 
 .button-Profile {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  display:flex;
+  justify-content:center;
+  align-items: center;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
 .position-right{
   display:flex;
-  align-items: center;
-  justify-content:right;
   margin: 1vh;
 }
 
 .position-left{
   display:flex;
-  align-items: center;
-  justify-content:left;
   margin: 1vh;;
 }
 
@@ -112,7 +108,7 @@ hr {
 }
 
 .robot{
-  position: absolute;
+  position:absolute;
   left: 80vw;
   bottom: 0vh;
   height: 12vh;
@@ -231,56 +227,117 @@ table{
 
 
 @media (max-width: 770px) {
-  .button-Profile {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  .position-right{
-    justify-content:center;
-  }
-  
-  .position-left{
-    justify-content:center;
-  }
-
-  .button-contactme{
-    font-size: 1.2vh;
-    padding: 0.2vh;
-    width: 10vh;
-  }
-  
-  .button-aboutme{
-    font-size: 1.2vh;
-    padding: 0.2vh ;
-    width: 10vh;
-  }
-
-  .contant-right{
-    position: absolute;
-    bottom:-2.5vh;
-    color:gray;
-  }
-
-  .certification-year{
-    position: absolute;
-    bottom:-2vh;
-    color:gray;
-  }
 
   .hr-homepage {
     margin-top: 4vh;
   }
+  
+  .container-Profile {
+    display: flex;
+    flex-direction:row;
 
+  }
+  .container-Profile-contact{
+    flex-direction:column;
+  }
+  
+  .Photo-Profile{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 15vh;
+    padding: 1vh;
+  }
+  
+  .button-Profile {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 3vw;
+  }
+
+  .button-contactme{
+    font-size: 2.5vh;
+    padding: 0.2vh;
+    width: 18vh;
+  }
+  
+  .button-aboutme{
+    font-size: 2.5vh;
+    padding: 0.2vh ;
+    width: 18vh;
+  }
+  
   .robot{
-    left: 67.5vw;
+    display: flex;
+    position:static;
+    justify-content: right;
     height: 16vh;
   }
+  
+  .container-contant {
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+    height: auto;
+    position: relative;
+  }
+
+  .list-setting{
+    font-size: 3vh;
+    position: relative;
+    margin: 3.5vh;
+  }
+  
+  .list-setting-certification{
+    list-style: none;
+  }
+  
+  .icon-robot{
+    height: 4vh;
+  }
+  
+  h2{
+    font-size: 4vh;
+  }
+  
+  .contant-right{
+    position: absolute;
+    bottom:-8vh;
+    color:gray;
+    margin-bottom: 3vh;
+  }
+  
+  .certification-year{
+    position: absolute;
+    bottom:-3.5vh;
+    color:gray;
+  }
+  
 
   .robot-footer{
     right: 67.5vw;
-    height: 12vh;
+    height: 18vh;
   }
+  
+  p{
+    font-size: 2vh;
+    margin: 2vh;
+  }
+  
+  
+  table{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: 1vh;
+    font-size: 3vh;
+  }
+
+
 }
 
 
