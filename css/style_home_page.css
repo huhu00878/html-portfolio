@@ -183,6 +183,7 @@ h2{
 .list-setting{
   font-size: 1.3vh;
   position: relative;
+  margin:  2.5vh;
 }
 
 p{
@@ -252,7 +253,7 @@ table{
 
   #footer-year{
     position: absolute;
-    bottom:-1vh;
+    bottom:-2vh;
     color:gray;
   }
 
