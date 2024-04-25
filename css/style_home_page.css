@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  width: auto;
+  height: auto;
 }
 
 hr {
@@ -148,6 +150,10 @@ hr {
   float: right;
 }
 
+.CERTIFICATION-year{
+  float: right;
+}
+
 #footer-base{
   background-color: #C5E898;
 }
@@ -188,6 +194,7 @@ h2{
 
 p{
   margin: 1vh;
+  font-size: 1.2vh;
 }
 
 .contact-note{
@@ -251,7 +258,7 @@ table{
     color:gray;
   }
 
-  #footer-year{
+  .CERTIFICATION-year{
     position: absolute;
     bottom:-2vh;
     color:gray;
