@@ -30,7 +30,6 @@ hr {
   font-size: 4vh;
   color: #F3F3F3;
   position:relative;
-  max-width: 720px;
   margin: auto;
 }
 
@@ -64,7 +63,7 @@ hr {
   align-items: center;
   transition-duration: 0.4s;
   cursor: pointer;
-  max-width: 720px;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -130,7 +129,7 @@ hr {
   justify-content: left;
   height: auto;
   position: relative;
-  max-width: 720px;
+  max-width: 1140px;
   margin: auto;
   padding: 2.5%;
 }
@@ -235,7 +234,7 @@ table{
 }
 
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
 
   .hr-homepage {
     margin-top: 4vh;
