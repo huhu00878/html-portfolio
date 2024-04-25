@@ -30,6 +30,8 @@ hr {
   font-size: 4vh;
   color: #F3F3F3;
   position:relative;
+  max-width: 720px;
+  margin: auto;
 }
 
 
@@ -44,6 +46,7 @@ hr {
   height: auto;
   position: relative;
   padding: 1.5vh;
+  margin: auto;
 }
 
 .Photo-Profile{
@@ -61,6 +64,8 @@ hr {
   align-items: center;
   transition-duration: 0.4s;
   cursor: pointer;
+  max-width: 720px;
+  margin: auto;
 }
 
 .position-right{
@@ -107,6 +112,7 @@ hr {
   color: #F3F3F3;
 }
 
+
 .robot{
   position:absolute;
   left: 80vw;
@@ -124,7 +130,9 @@ hr {
   justify-content: left;
   height: auto;
   position: relative;
-  
+  max-width: 720px;
+  margin: auto;
+  padding: 2.5%;
 }
 
 .icon-robot{
@@ -161,6 +169,7 @@ hr {
   justify-content:center;
   height: auto;
   padding-top: 1vh;
+  margin: auto;
 }
 
 footer{
@@ -226,7 +235,7 @@ table{
 }
 
 
-@media (max-width: 770px) {
+@media (max-width: 540px) {
 
   .hr-homepage {
     margin-top: 4vh;
@@ -275,14 +284,6 @@ table{
     position:static;
     justify-content: right;
     height: 16vh;
-  }
-  
-  .container-contant {
-    display: flex;
-    flex-direction:column;
-    justify-content: left;
-    height: auto;
-    position: relative;
   }
 
   .list-setting{
