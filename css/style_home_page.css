@@ -63,8 +63,6 @@ hr {
   align-items: center;
   transition-duration: 0.4s;
   cursor: pointer;
-  max-width: 1140px;
-  margin: auto;
 }
 
 .position-right{
