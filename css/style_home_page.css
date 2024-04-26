@@ -120,11 +120,11 @@ hr {
   height: 12vh;
 }
 
-#contant{
+#content{
   background-color: #F3F3F3;
 }
 
-.container-contant {
+.container-content {
   display: flex;
   flex-direction:column;
   justify-content: left;
@@ -146,13 +146,13 @@ hr {
   word-break: break-all;
 }
 
-.contant-left{
+.content-left{
   float: left;
   font-weight: 700;
   word-break: break-all;
 }
 
-.contant-right{
+.content-right{
   float: right;
   word-break: break-all;
 }
@@ -316,7 +316,7 @@ table{
     font-size: 3vh;
   }
   
-  .contant-right{
+  .content-right{
     position: absolute;
     bottom:-8vh;
     color:gray;
