@@ -1,7 +1,5 @@
 body{
   margin: 0;
-  width: auto;
-  height: auto;
 }
 
 hr {
@@ -30,7 +28,9 @@ hr {
   font-size: 4vh;
   color: #F3F3F3;
   position:relative;
+  max-width: 1140px;
   margin: auto;
+  padding: 0 2.5%;
 }
 
 
@@ -45,7 +45,10 @@ hr {
   height: auto;
   position: relative;
   padding: 1.5vh;
+  max-width: 1140px;
   margin: auto;
+  padding: 0 2.5%;
+  
 }
 
 .Photo-Profile{
@@ -112,8 +115,8 @@ hr {
 
 .robot{
   position:absolute;
-  left: 80vw;
-  bottom: 0vh;
+  right: 10%;
+  bottom: 0;
   height: 12vh;
 }
 
@@ -140,19 +143,23 @@ hr {
 .sub-title{
   display: flex;
   position: relative;
+  word-break: break-all;
 }
 
 .contant-left{
   float: left;
   font-weight: 700;
+  word-break: break-all;
 }
 
 .contant-right{
   float: right;
+  word-break: break-all;
 }
 
 .certification-year{
   float: right;
+  word-break: break-all;
 }
 
 #footer-base{
@@ -166,7 +173,9 @@ hr {
   justify-content:center;
   height: auto;
   padding-top: 1vh;
+  max-width: 1140px;
   margin: auto;
+  padding: 1% 2.5%;
 }
 
 footer{
@@ -178,35 +187,40 @@ footer{
 
 .robot-footer{
   position: absolute;
-  right: 80vw;
-  bottom: 0vh;;
+  left:10%;
+  bottom: 0;
   height: 8.5vh;
 }
 
 h2{
   font-size: 2vh;
   margin: 2vh 2vh 0 2vh;
+  word-break: break-all;
 }
 
 .list-setting{
   font-size: 1.3vh;
   position: relative;
   margin: 2.5vh;
+  word-break: break-all;
 }
 
 .list-setting-certification{
   list-style: none;
+  word-break: break-all;
 }
 
 p{
   font-size: 1.2vh;
   margin: 1vh;
+  word-break: break-all;
 }
 
 .contact-note{
   text-align: center;
   font-weight: 700;
   margin: 1vh;
+  word-break: break-all;
 }
 
 .contact-ph-number{
@@ -214,6 +228,7 @@ p{
   font-weight: 700;
   margin: 0;
   text-decoration:none;
+  word-break: break-all;
 }
 
 .contact-email{
@@ -221,6 +236,7 @@ p{
   font-weight: 700;
   margin: 0;
   text-decoration:none;
+  word-break: break-all;
 }
 
 table{
@@ -277,28 +293,27 @@ table{
   }
   
   .robot{
-    display: flex;
-    position:static;
-    justify-content: right;
-    height: 16vh;
+    right: 1%;
+    height: 6vh;
   }
 
   .list-setting{
-    font-size: 3vh;
-    position: relative;
+    font-size: 2vh;
     margin: 3.5vh;
   }
   
   .list-setting-certification{
+    font-size: 2vh;
     list-style: none;
+    margin: 3.5vh 3.5vh 10vh 3.5vh;
   }
   
   .icon-robot{
-    height: 4vh;
+    height: 3vh;
   }
   
   h2{
-    font-size: 4vh;
+    font-size: 3vh;
   }
   
   .contant-right{
@@ -310,14 +325,14 @@ table{
   
   .certification-year{
     position: absolute;
-    bottom:-3.5vh;
+    top:3.5vh;
     color:gray;
   }
   
 
   .robot-footer{
-    right: 67.5vw;
-    height: 18vh;
+    left: 1%;
+    height: 10vh;
   }
   
   p{
@@ -332,7 +347,7 @@ table{
     justify-content:center;
     align-items: center;
     margin: 1vh;
-    font-size: 3vh;
+    font-size: 2vh;
   }
 
 
