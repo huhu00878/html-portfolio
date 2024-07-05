@@ -148,6 +148,7 @@ hr {
   display: flex;
   position: relative;
   justify-content:center;
+  margin: auto;
   word-break: break-all;
 }
 
