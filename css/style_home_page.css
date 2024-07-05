@@ -33,7 +33,6 @@ hr {
   padding: 0 2.5%;
 }
 
-
 #Profile{
   background-color: #C5E898; 
 }
@@ -48,7 +47,6 @@ hr {
   max-width: 1140px;
   margin: auto;
   padding: 0 2.5%;
-  
 }
 
 .Photo-Profile{
@@ -146,6 +144,13 @@ hr {
   word-break: break-all;
 }
 
+.sub-title-aboutme{
+  display: flex;
+  position: relative;
+  justify-content:center;
+  word-break: break-all;
+}
+
 .content-left{
   float: left;
   font-weight: 700;
@@ -193,8 +198,8 @@ footer{
 }
 
 h2{
-  font-size: 2vh;
-  margin: 2vh 2vh 0 2vh;
+  font-size: 2.5vh;
+  margin: 1.5vh 1.5vh 1.5vh 1.5vh;
   word-break: break-all;
 }
 
