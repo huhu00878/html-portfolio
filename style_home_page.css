@@ -1,0 +1,366 @@
+body{
+  margin: 0;
+}
+
+hr {
+  border:dotted #C5E898 0.5vh;
+  border-bottom: none;
+  width: 8%;
+}
+
+.tektur{
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style:normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#title{
+  background-color: #0766AD;
+}
+
+.container-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  font-size: 4vh;
+  color: #F3F3F3;
+  position:relative;
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 2.5%;
+}
+
+#Profile{
+  background-color: #C5E898; 
+}
+
+.container-Profile {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  height: auto;
+  position: relative;
+  padding: 1.5vh;
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 2.5%;
+}
+
+.Photo-Profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 15vh;
+  padding: 1vh;
+}
+
+.button-Profile {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.position-right{
+  display:flex;
+  margin: 1vh;
+}
+
+.position-left{
+  display:flex;
+  margin: 1vh;;
+}
+
+.button-contactme{
+  font-size: 1.5vh;
+  border-radius: 5%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #F3F3F3; 
+  color: black; 
+  border: 0.3vh solid #0766AD;
+  padding: 0.2vh;
+  width: 12vh;
+}
+
+.button-aboutme{
+  font-size: 1.5vh;
+  border-radius: 5%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #F3F3F3; 
+  color: black; 
+  border: 0.3vh solid #29ADB2;
+  padding: 0.2vh ;
+  width: 12vh;
+}
+
+.button-contactme:hover {
+  background-color: #0766AD;
+  color: #F3F3F3;
+}
+
+.button-aboutme:hover {
+  background-color: #29ADB2;
+  color: #F3F3F3;
+}
+
+
+.robot{
+  position:absolute;
+  right: 10%;
+  bottom: 0;
+  height: 12vh;
+}
+
+#content{
+  background-color: #F3F3F3;
+}
+
+.container-content {
+  display: flex;
+  flex-direction:column;
+  justify-content: left;
+  height: auto;
+  position: relative;
+  max-width: 1140px;
+  margin: auto;
+  padding: 2.5%;
+}
+
+.icon-robot{
+  margin:2vh 0 2vh 2vh;
+  height: 2vh;
+}
+
+.sub-title{
+  display: flex;
+  position: relative;
+  word-break: break-all;
+}
+
+.sub-title-aboutme{
+  display: flex;
+  position: relative;
+  justify-content:center;
+  margin: auto;
+  word-break: break-all;
+}
+
+.content-left{
+  float: left;
+  font-weight: 700;
+  word-break: break-all;
+}
+
+.content-right{
+  float: right;
+  word-break: break-all;
+}
+
+.certification-year{
+  float: right;
+  word-break: break-all;
+}
+
+#footer-base{
+  background-color: #C5E898;
+}
+
+.container-footer-base{
+  
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  height: auto;
+  padding-top: 1vh;
+  max-width: 1140px;
+  margin: auto;
+  padding: 1% 2.5%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  font-size: 1vh;
+  position: relative;
+}
+
+.robot-footer{
+  position: absolute;
+  left:10%;
+  bottom: 0;
+  height: 8.5vh;
+}
+
+h2{
+  font-size: 2.5vh;
+  margin: 1.5vh 1.5vh 1.5vh 1.5vh;
+  word-break: break-all;
+}
+
+.list-setting{
+  font-size: 1.5vh;
+  position: relative;
+  margin: 1.5vh;
+  word-break: break-all;
+}
+
+.list-setting-certification{
+  list-style: none;
+  word-break: break-all;
+}
+
+p{
+  font-size: 1.5vh;
+  margin: 1vh;
+  word-break: break-all;
+}
+
+.contact-note{
+  text-align: center;
+  font-weight: 700;
+  margin: 1vh;
+  word-break: break-all;
+}
+
+.contact-ph-number{
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  text-decoration:none;
+  word-break: break-all;
+}
+
+.contact-email{
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  text-decoration:none;
+  word-break: break-all;
+}
+
+table{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  margin: 0 1vh 1vh 1vh;
+}
+
+
+@media (max-width: 720px) {
+
+  .hr-homepage {
+    margin-top: 4vh;
+  }
+  
+  .container-Profile {
+    display: flex;
+    flex-direction:row;
+
+  }
+  .container-Profile-contact{
+    flex-direction:column;
+  }
+  
+  .Photo-Profile{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 15vh;
+    padding: 1vh;
+  }
+  
+  .button-Profile {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 3vw;
+  }
+
+  .button-contactme{
+    font-size: 2.5vh;
+    padding: 0.2vh;
+    width: 18vh;
+  }
+  
+  .button-aboutme{
+    font-size: 2.5vh;
+    padding: 0.2vh ;
+    width: 18vh;
+  }
+  
+  .robot{
+    right: 1%;
+    height: 6vh;
+  }
+
+  .list-setting{
+    font-size: 2vh;
+    margin: 4.5vh;
+  }
+  
+  .list-setting-certification{
+    font-size: 2vh;
+    list-style: none;
+    margin: 3.5vh 3.5vh 10vh 3.5vh;
+  }
+  
+  .icon-robot{
+    height: 3vh;
+  }
+  
+  h2{
+    font-size: 3vh;
+  }
+  
+  .content-right{
+    position: absolute;
+    bottom:-8vh;
+    color:gray;
+    margin-bottom: 3vh;
+  }
+  
+  .certification-year{
+    position: absolute;
+    top:3.5vh;
+    color:gray;
+  }
+  
+
+  .robot-footer{
+    left: 1%;
+    height: 10vh;
+  }
+  
+  p{
+    font-size: 2vh;
+    margin: 2vh;
+  }
+  
+  
+  table{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin: 1vh;
+    font-size: 2vh;
+  }
+
+
+}
+
+
+
+
+
+
